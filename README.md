@@ -31,7 +31,7 @@ The system allows managing incidents, assigning executors, tracking SLA deadline
 - Light/Dark theme support
 - Input validation and error handling
 
-# 🏗 Architecture
+# Architecture
 - Entity Framework ORM for data access
 - Local SQLite database
 - Layered structure (UI / Business Logic / Data Access)
