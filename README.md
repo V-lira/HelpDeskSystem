@@ -47,19 +47,6 @@ Layered structure (UI / Business Logic / Data Access)
 
 <img width="635" height="232" alt="image" src="https://github.com/user-attachments/assets/c83b4d77-e043-4a3b-84e1-da881113ae31" />
 
-<img width="635" height="266" alt="image" src="https://github.com/user-attachments/assets/0bdb1e78-04b4-4253-a963-34bc3f8f2b6d" />
-
-<img width="186" height="256" alt="image (5)" src="https://github.com/user-attachments/assets/046df36b-195c-4d60-80f5-a530dfaeddc2" />
-
-<img width="179" height="256" alt="image (6)" src="https://github.com/user-attachments/assets/660d9377-8e52-4761-ae2d-9a91022525c2" />
-
-<img width="256" height="136" alt="image (27)" src="https://github.com/user-attachments/assets/ae675baf-19cd-44a7-93f2-ae43deb25373" />
-
-<img width="256" height="124" alt="image (24)" src="https://github.com/user-attachments/assets/88f37098-34fa-4d67-9fc5-389870313b22" />
-
-<img width="256" height="87" alt="image (25)" src="https://github.com/user-attachments/assets/3397e3c4-5ef7-4c7e-bddf-4ef390015cb9" />
-
-<img width="256" height="97" alt="image (22)" src="https://github.com/user-attachments/assets/a8af9830-8826-48f7-a905-6212857070c7" />
 
 
 # 📌Notes
