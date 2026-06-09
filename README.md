@@ -36,6 +36,8 @@ The system allows managing incidents, assigning executors, tracking SLA deadline
 - Local SQLite database
 - Layered structure (UI / Business Logic / Data Access)
 
+<img width="324" height="373" alt="image" src="https://github.com/user-attachments/assets/8279fa8e-7b41-4433-9262-af9e5c4c3542" />
+
 # Screenshots:
 
 # LOG WINDOW:
