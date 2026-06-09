@@ -18,24 +18,26 @@ MaterialDesignInXAML
 
 
 # 🚀Features
-User authentication system
-Role-based access control (Admin / Support)
-Incident management (create, edit, delete)
-Assignment of responsible employees
-SLA and deadline tracking
-Comments system (add/edit/delete)
-Search and filtering
-Reporting and export to file
-User management module
-Light/Dark theme support
-Input validation and error handling
+- User authentication system
+- Role-based access control (Admin / Support)
+- Incident management (create, edit, delete)
+- Assignment of responsible employees
+- SLA and deadline tracking
+- Comments system (add/edit/delete)
+- Search and filtering
+- Reporting and export to file
+- User management module
+- Light/Dark theme support
+- Input validation and error handling
 
 # 🏗 Architecture
 Entity Framework ORM for data access
 Local SQLite database
 Layered structure (UI / Business Logic / Data Access)
 
-#📸Screenshots
+# Screenshots:
+
+# LOG WINDOW:
 
 <img width="347" height="321" alt="image" src="https://github.com/user-attachments/assets/374555fe-062b-4784-81ca-cc5e652082bc" />
 
