@@ -18,7 +18,7 @@ The system allows managing incidents, assigning executors, tracking SLA deadline
 - MaterialDesignInXAML
 
 
-# 🚀Features
+# Features
 - User authentication system
 - Role-based access control (Admin / Support)
 - Incident management (create, edit, delete)
