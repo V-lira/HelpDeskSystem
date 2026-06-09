@@ -5,16 +5,17 @@ HelpDeskSystem-WPF
 Desktop application for incident tracking and technical support management.
 
 # 📌Description
-HelpDeskSystem is a Windows desktop application designed to automate internal IT support processes.
-The system allows managing incidents, assigning executors, tracking SLA deadlines, and generating reports.
+HelpDeskSystem is a Windows desktop application designed to automate internal IT support processes
+
+The system allows managing incidents, assigning executors, tracking SLA deadlines, and generating reports
 
 # ⚙️Tech Stack
-C#
-.NET Framework 4.8
-WPF (UI)
-Entity Framework 6
-SQLite
-MaterialDesignInXAML
+- C#
+- .NET Framework 4.8
+- WPF (UI)
+- Entity Framework 6
+- SQLite
+- MaterialDesignInXAML
 
 
 # 🚀Features
@@ -31,9 +32,9 @@ MaterialDesignInXAML
 - Input validation and error handling
 
 # 🏗 Architecture
-Entity Framework ORM for data access
-Local SQLite database
-Layered structure (UI / Business Logic / Data Access)
+- Entity Framework ORM for data access
+- Local SQLite database
+- Layered structure (UI / Business Logic / Data Access)
 
 # Screenshots:
 
@@ -47,7 +48,7 @@ Layered structure (UI / Business Logic / Data Access)
 <img width="1916" height="650" alt="image" src="https://github.com/user-attachments/assets/ed015d5f-a973-4942-a4ce-243b5e5c9157" />
 
 
-#CREATE:
+# CREATE:
 
 <img width="540" height="755" alt="image" src="https://github.com/user-attachments/assets/3d968a2e-49eb-453a-8272-88b3b7a968d1" />
 
