@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="HelpDeskSystem.Views.EditUserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <ScrollViewer>
+        <StackPanel Margin="30" Width="500">
+
+            <Button Content="← Назад" Width="140" Height="40" Margin="0 0 0 20" Click="BackButton_Click" Style="{StaticResource MaterialDesignOutlinedButton}"/>
+            <TextBlock Text="Редактирование пользователя" FontSize="28" FontWeight="Bold" Margin="0 0 0 25"/>
+            <!-- ffullName -->
+            <TextBlock Text="ФИО"/>
+            <TextBox x:Name="FullNameTextBox" Margin="0 0 0 15"/>
+            <!-- role -->
+            <TextBlock Text="Роль"/>
+            <ComboBox x:Name="RoleComboBox" Margin="0 0 0 15">
+                <ComboBoxItem Content="Admin"/>
+                <ComboBoxItem Content="Support"/>
+                <ComboBoxItem Content="User"/>
+            </ComboBox>
+            <!-- Department -->
+            <TextBlock Text="Подразделение"/>
+            <TextBox x:Name="DepartmentTextBox" Margin="0 0 0 15"/>
+            <!-- Email -->
+            <TextBlock Text="Email"/>
+            <TextBox x:Name="EmailTextBox" Margin="0 0 0 15"/>
+            <!-- WorkHours -->
+            <TextBlock Text="Рабочие часы"/>
+            <TextBox x:Name="WorkHoursTextBox" Margin="0 0 0 25"/>
+            <Button Content="💾 Сохранить" Height="45" Click="SaveButton_Click" Style="{StaticResource MaterialDesignRaisedButton}"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

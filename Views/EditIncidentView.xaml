@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="HelpDeskSystem.Views.EditIncidentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <ScrollViewer>
+
+        <StackPanel Margin="30"
+                    Width="500">
+            <TextBlock Text="Редактирование инцидента" FontSize="30" FontWeight="Bold" Margin="0 0 0 30"/>
+            <!-- NUM -->
+            <TextBlock Text="Номер инцидента" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="NumberTextBox" Margin="0 0 0 15"/>
+            <!-- SLA -->
+            <TextBlock Text="SLA" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="SLATextBox" Margin="0 0 0 15"/>
+            <!-- Deadline -->
+            <TextBlock Text="Deadline" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <DatePicker x:Name="DeadlinePicker" Margin="0 0 0 25"/>
+            <!-- Assgn -->
+            <TextBlock Text="Исполнитель" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="AssignedUserTextBox" Margin="0 0 0 15"/>
+            <!-- Category -->
+            <TextBlock Text="Категория" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <ComboBox x:Name="CategoryComboBox" Margin="0 0 0 15">
+                <ComboBoxItem Content="ПО"/>
+                <ComboBoxItem Content="Сеть"/>
+                <ComboBoxItem Content="VPN"/>
+                <ComboBoxItem Content="Почта"/>
+                <ComboBoxItem Content="Оборудование"/>
+            </ComboBox>
+            <!-- Departm -->
+            <TextBlock Text="Подразделение" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="DepartmentTextBox" Margin="0 0 0 15"/>
+            <!-- Author -->
+            <TextBlock Text="Автор" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="AuthorTextBox" Margin="0 0 0 15"/>
+            <!-- Title -->
+            <TextBlock Text="Название инцидента" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <TextBox x:Name="TitleTextBox" Margin="0 0 0 15"/>
+            <!-- Priority -->
+            <TextBlock Text="Приоритет" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <ComboBox x:Name="PriorityComboBox" Margin="0 0 0 15">
+                <ComboBoxItem Content="Низкий"/>
+                <ComboBoxItem Content="Средний"/>
+                <ComboBoxItem Content="Высокий"/>
+                <ComboBoxItem Content="Критический"/>
+            </ComboBox>
+            <!-- Status -->
+            <TextBlock Text="Статус" FontWeight="SemiBold" Margin="0 0 0 5"/>
+            <ComboBox x:Name="StatusComboBox" Margin="0 0 0 25">
+                <ComboBoxItem Content="Новый"/>
+                <ComboBoxItem Content="В работе"/>
+                <ComboBoxItem Content="Закрыт"/>
+                <ComboBoxItem Content="Ожидает информации"/>
+                <ComboBoxItem Content="Решен"/>
+                <ComboBoxItem Content="Отклонен"/>
+            </ComboBox>
+            <Button Content="💾 Сохранить изменения" Height="45" Click="SaveButton_Click" Style="{StaticResource MaterialDesignRaisedButton}"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
